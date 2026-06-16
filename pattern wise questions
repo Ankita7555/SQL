@@ -1,0 +1,228 @@
+1. Basic SELECT / WHERE / ORDER BY / DISTINCT (~30)
+175 Combine Two Tables
+584 Find Customer Referee
+595 Big Countries
+603 Consecutive Available Seats
+607 Sales Person
+610 Triangle Judgement
+619 Biggest Single Number
+620 Not Boring Movies
+627 Swap Sex
+1082 Sales Analysis I
+1084 Sales Analysis III
+1113 Reported Posts
+1148 Article Views I
+1173 Immediate Food Delivery I
+1211 Queries Quality and Percentage
+1327 List Products Ordered in a Period
+1407 Top Travellers
+1495 Friendly Movies Streamed Last Month
+1517 Find Users With Valid Emails
+1527 Patients With a Condition
+1543 Fix Product Name Format
+1607 Sellers With No Sales
+1683 Invalid Tweets
+1757 Recyclable and Low Fat Products
+1809 Ad-Free Sessions
+1821 Customers With Positive Revenue This Year
+1890 Latest Login in 2020
+2026 Low Quality Problems
+2082 Number of Rich Customers
+2205 Eligible for Discount
+
+
+2. INNER JOIN / LEFT JOIN / RIGHT JOIN (~50)
+1378 Replace Employee ID
+1068 Product Sales Analysis I
+1075 Project Employees I
+1280 Students and Examinations
+1581 Customer Who Visited But Did Not Make Transactions
+577 Employee Bonus
+181 Employees Earning More Than Managers
+183 Customers Who Never Order
+175 Combine Two Tables
+580 Count Student Number in Departments
+608 Tree Node
+1076 Project Employees II
+1083 Sales Analysis II
+1158 Market Analysis I
+1241 Number of Comments Per Post
+1303 Find Team Size
+1364 Trusted Contacts
+1511 Customer Order Frequency
+1571 Warehouse Manager
+1661 Average Time of Process per Machine
+1731 Employees Reporting to Each Employee
+1934 Confirmation Rate
+1965 Employees With Missing Information
+2041 Accepted Candidates
+2238 Driver Was Passenger
+2837 Total Traveled Distance
+
+
+3. GROUP BY / COUNT / SUM / AVG / MIN / MAX (~50)
+586 Largest Number of Orders
+596 Classes With At Least 5 Students
+597 Friend Requests Acceptance Rate
+602 Most Friends
+614 Second Degree Follower
+1050 Actors and Directors
+1077 Project Employees III
+1126 Active Businesses
+1141 User Activity Past 30 Days I
+1193 Monthly Transactions I
+1212 Team Scores
+1251 Average Selling Price
+1322 Ads Performance
+1484 Group Sold Products
+1565 Unique Orders and Customers
+1633 Percentage of Users Attended Contest
+1693 Daily Leads and Partners
+1729 Followers Count
+1741 Time Spent by Employee
+1907 Count Salary Categories
+2084 Drop Type Orders
+2356 Unique Subjects Taught
+
+
+4. HAVING (~15)
+182 Duplicate Emails
+570 Managers With At Least 5 Direct Reports
+596 Classes With At Least 5 Students
+586 Largest Number of Orders
+1050 Actors and Directors
+1126 Active Businesses
+1355 Activity Participants
+1587 Bank Account Summary II
+
+
+5. CASE WHEN (~20)
+610 Triangle Judgement
+615 Average Salary Departments vs Company
+627 Swap Sex
+1322 Ads Performance
+1393 Capital Gain/Loss
+1440 Evaluate Boolean Expression
+1468 Calculate Salaries
+1873 Calculate Special Bonus
+1907 Count Salary Categories
+2051 Category of Each Member
+
+
+6. Subqueries (~25)
+183 Customers Who Never Order
+607 Sales Person
+1083 Sales Analysis II
+1084 Sales Analysis III
+1098 Unpopular Books
+1398 Products A and B but Not C
+1501 Countries You Can Safely Invest In
+1607 Sellers With No Sales
+1978 Employees Whose Manager Left Company
+
+
+7. Self Join (~15)
+181 Employees Earning More Than Managers
+197 Rising Temperature
+602 Most Friends
+612 Shortest Distance in Plane
+613 Shortest Distance in Line
+1459 Rectangles Area
+1699 Calls Between Two Persons
+
+
+8. Window Functions - ROW_NUMBER / RANK / DENSE_RANK (~60)
+Most important category for Data Engineers.
+176 Second Highest Salary
+177 Nth Highest Salary
+178 Rank Scores
+184 Department Highest Salary
+185 Department Top Three Salaries
+534 Game Play Analysis III
+550 Game Play Analysis IV
+569 Median Employee Salary
+579 Cumulative Salary
+626 Exchange Seats
+1070 Product Sales Analysis III
+1112 Highest Grade
+1164 Product Price at Given Date
+1204 Last Person to Fit in Bus
+1308 Running Total
+1321 Restaurant Growth
+1369 Second Most Recent Activity
+1454 Active Users
+1532 Most Recent Three Orders
+1549 Most Recent Orders Per Product
+1596 Most Frequently Ordered Products
+1709 Biggest Window Between Visits
+1831 Maximum Transaction Each Day
+2066 Account Balance
+2175 Change in Global Rankings
+2346 Rank as Percentage
+2668 Latest Salaries
+2854 Rolling Average Steps
+3214 Year on Year Growth Rate
+3338 Second Highest Salary II
+
+
+9. LAG / LEAD (~15)
+180 Consecutive Numbers
+197 Rising Temperature
+1225 Report Contiguous Dates
+1709 Biggest Window Between Visits
+2175 Change in Global Rankings
+2701 Consecutive Transactions with Increasing Amounts
+2854 Rolling Average Steps
+
+
+10. CTE (WITH) (~40)
+184 Department Highest Salary
+185 Department Top Three Salaries
+550 Game Play Analysis IV
+570 Managers With At Least 5 Direct Reports
+601 Human Traffic of Stadium
+615 Average Salary Departments vs Company
+1321 Restaurant Growth
+1635 Hopper Queries I
+1645 Hopper Queries II
+1651 Hopper Queries III
+1841 League Statistics
+2474 Customers With Increasing Purchases
+3057 Employee Project Allocation
+3236 CEO Subordinate Hierarchy
+
+
+11. Date Functions (~20)
+197 Rising Temperature
+1141 User Activity 30 Days
+1158 Market Analysis I
+1173 Immediate Food Delivery I
+1174 Immediate Food Delivery II
+1321 Restaurant Growth
+1565 Unique Orders Per Month
+1853 Convert Date Format
+2686 Immediate Food Delivery III
+
+
+12. Advanced Analytics / Hard SQL (~40)
+262 Trips and Users
+571 Median Given Frequency
+601 Human Traffic of Stadium
+1097 Game Play Analysis V
+1127 User Purchase Platform
+1159 Market Analysis II
+1194 Tournament Winners
+1336 Transactions Per Visit
+1412 Quiet Students
+1635 Hopper Queries I
+1645 Hopper Queries II
+1651 Hopper Queries III
+1917 Friend Recommendations
+2004 Seniors and Juniors
+2118 Build Equation
+2252 Dynamic Pivoting
+2253 Dynamic Unpivoting
+2362 Generate Invoice
+2494 Merge Overlapping Events
+2994 Friday Purchases II
+3061 Calculate Trapping Rain Water
