@@ -1,0 +1,8 @@
+1. Gaps and Islands is one of the most important SQL interview patterns.
+It's used when you need to find:
+Consecutive dates
+Consecutive IDs
+Continuous ranges
+Winning streaks
+Active users
+Human traffic sequences
