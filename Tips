@@ -6,3 +6,20 @@ Continuous ranges
 Winning streaks
 Active users
 Human traffic sequences
+WITH cte AS (
+    SELECT
+        id,
+        dt,
+        dt - ROW_NUMBER() OVER (
+            PARTITION BY id
+            ORDER BY dt
+        ) AS grp
+    FROM table_name
+)
+SELECT
+    id,
+    MIN(dt),
+    MAX(dt),
+    COUNT(*)
+FROM cte
+GROUP BY id, grp;
