@@ -34,3 +34,35 @@ OVER (
     PARTITION BY column_name
     ORDER BY column_name
 )
+
+-------------------------------------------------------------------------------------------------
+4. ROW_NUMBER()
+
+Most Important Interview Patterns
+Running Total
+SUM() OVER (
+    ORDER BY col
+    ROWS BETWEEN UNBOUNDED PRECEDING
+    AND CURRENT ROW
+)
+Rolling 7-Day Average
+AVG() OVER (
+    ORDER BY date
+    ROWS BETWEEN 6 PRECEDING
+    AND CURRENT ROW
+)
+Previous + Current
+ROWS BETWEEN 1 PRECEDING
+AND CURRENT ROW
+Entire Partition Total
+ROWS BETWEEN UNBOUNDED PRECEDING
+AND UNBOUNDED FOLLOWING
+
+
+Problem	Frame
+1308 Running Total	UNBOUNDED PRECEDING → CURRENT
+2066 Account Balance	UNBOUNDED PRECEDING → CURRENT
+579 Cumulative Salary	UNBOUNDED PRECEDING → CURRENT
+1321 Restaurant Growth	6 PRECEDING → CURRENT
+2854 Rolling Average Steps	6 PRECEDING → CURRENT
+Hopper Queries	Rolling Windows
